@@ -1,7 +1,5 @@
 # Very (very very) Simple Text Slider
 
-## Usage
-
 ```html
 <div class="slogans">
 	<div>
@@ -29,3 +27,7 @@
 	});
 </script>
 ```
+
+## Demo
+
+{soon..}
