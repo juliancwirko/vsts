@@ -21,10 +21,11 @@
 <script src="jquery.js"></script>
 <script src="jquery.vsts.js"></script>
 <script>
-	$('.slogans').vsts({
-		speed: 5000, /* ms */
-		effect: 'horizontal' /* vertical | horizontal */
-	});
+	(function(){
+		$('.slogans').vsts({
+			speed: 5000, /* ms */
+		});
+	})()
 </script>
 ```
 
