@@ -30,5 +30,5 @@
 ```
 
 ## Demo
+[See demo page..](http://www.redsunmedia.pl/playground/vsts/demo/)
 
-{soon..}

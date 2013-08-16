@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Very Simple Text Slider</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<div class="menu">
+		<div>
+			<a href="mailto:julian.cwirko@gmail.com"><i class="icon-envelope"></i> E-mail</a> <a href="http://www.redsunmedia.pl"><i class="icon-link"></i> WWW</a> <a href="https://github.com/juliancwirko/vsts"><i class="icon-github"></i> GitHub</a>
+		</div>
+	</div>
+	<div class="container">
+		<h1><i class="icon-arrow-down"></i> Very Simple Text Slider (demo) <i class="icon-arrow-down"></i></h1>
+		<div class="slogans">
+			<div><i class="icon-camera-retro"></i> Lorem ipsum. <span style="font-weight:bold">Lorem ipsum dolor.</span></div>
+			<div><i class="icon-cogs"></i> Lorem ipsum dolor. <span style="font-size:15px">Lorem ipsum dolor sit amet.</span></div>
+			<div><i class="icon-globe"></i> Lorem ipsum dolor sit.</div>
+			<div><i class="icon-rocket"></i> Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+		</div>
+		<div class="code">
+<h3>Usage:</h3>
+<pre>
+	&lt;div class="slogans"&gt;
+		&lt;div&gt;
+			Lorem ipsum. &lt;span style="font-weight:bold"&gt;Lorem ipsum dolor.&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			Lorem ipsum dolor. &lt;span style="font-size:15px"&gt;Lorem ipsum dolor sit amet.&lt;/span&gt;&lt;/div&gt;
+		&lt;div&gt;
+			Lorem ipsum dolor sit.
+		&lt;/div&gt;
+		&lt;div&gt;
+			Lorem ipsum dolor sit amet, consectetur adipisicing.
+		&lt;/div&gt;
+	&lt;/div&gt;
+	...
+	&lt;script src="jquery.js"&gt;&lt;/script&gt;
+	&lt;script src="jquery.vsts.js"&gt;&lt;/script&gt;
+	&lt;script&gt;
+		(function(){
+			$('.slogans').vsts({
+				speed: 5000, /* ms */
+			});
+		})()
+	&lt;/script&gt;
+</pre>
+		</div>
+	</div>
+	<div class="menu">
+		<div>
+			<a href="mailto:julian.cwirko@gmail.com"><i class="icon-envelope"></i> E-mail</a> <a href="http://www.redsunmedia.pl"><i class="icon-link"></i> WWW</a> <a href="https://github.com/juliancwirko/vsts"><i class="icon-github"></i> GitHub</a>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="../jquery.vsts.js"></script>
+	<script>
+		(function(){
+			$('.slogans').vsts({
+				speed: 2000
+			});
+		})()
+	</script>
+</body>
+</html>
